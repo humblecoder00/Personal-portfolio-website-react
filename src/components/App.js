@@ -1,10 +1,13 @@
 import React, { Component } from "react";
 import { recursiveDelay } from "./../utility/typeWriter";
 import "./App.css";
+import HeroHeader from "./HeroHeader";
+import Cursor from "./cursor/Cursor";
 
 class App extends Component {
   state = {
-    textValue: "Hello, I'm Şahin Arslan. I am a full-stack web developer.",
+    textValue: `Hello, I'm Şahin Arslan.
+I am a full-stack web developer.`,
     typingText: "",
     indexVal: -1
   };
@@ -35,18 +38,17 @@ class App extends Component {
     return (
       <div>
         <div className="hero-header-container">
-          <div>
-            <img
-              className="profile-image"
-              src="/profileWeb.png"
-              alt="profile"
-            />
+          <div className="greeting-container">
+            <div>
+              <pre className="introduction-text">
+                {this.state.typingText}
+                <Cursor />
+              </pre>
+            </div>
           </div>
-          <div />
+          <button className="button">View my work</button>
         </div>
-        <div className="greeting-container">
-          <p className="introduction-text">{this.state.typingText}</p>
-        </div>
+        <img className="profile-image" src="/profileWeb.png" alt="profile" />
       </div>
     );
   }
