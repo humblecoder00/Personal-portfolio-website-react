@@ -25,8 +25,6 @@ I am a full-stack web developer.`,
     let typingText = this.state.typingText;
     let text = this.state.textValue;
 
-    // NOTE: You may apply the writing pointer based on the end of string.
-
     if (index < text.length) {
       typingText += text.charAt(index);
       index++;
@@ -35,20 +33,32 @@ I am a full-stack web developer.`,
   };
 
   render() {
+    const { typingText, textValue } = this.state;
     return (
       <div>
         <div className="hero-header-container">
           <div className="greeting-container">
             <div>
               <pre className="introduction-text">
-                {this.state.typingText}
+                {typingText}
                 <Cursor />
               </pre>
             </div>
           </div>
-          <button className="button">View my work</button>
+          <button
+            className={
+              typingText.length === textValue.length
+                ? "button animate"
+                : "button"
+            }
+          >
+            View my work
+          </button>
         </div>
-        <img className="profile-image" src="/profileWeb.png" alt="profile" />
+        {/* <img className="profile-image" src="/profileWeb.png" alt="profile" /> */}
+        <div style={{ height: "400px", backgroundColor: "#F4F4F9" }}>
+          <h1>My portfolio stuff </h1>
+        </div>
       </div>
     );
   }
