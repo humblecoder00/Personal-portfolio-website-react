@@ -92,3 +92,8 @@ pre {
     box-shadow: 0 0 0 transparent;
   }
 }
+
+.section-content {
+  height: 100vh;
+  background-color: #f4f4f9;
+}
