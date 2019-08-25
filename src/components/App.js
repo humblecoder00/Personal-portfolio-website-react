@@ -1,7 +1,5 @@
 import React, { Component } from "react";
-import { Link, animateScroll as scroll } from "react-scroll";
 import { recursiveDelay } from "./../utility/typeWriter";
-import Cursor from "./cursor/Cursor";
 import About from "./about/About";
 import Skills from "./skills/Skills";
 import Contact from "./contact/Contact";
@@ -9,6 +7,7 @@ import Portfolio from "./portfolio/Portfolio";
 import Navbar from "./navbar/Navbar";
 import "./App.css";
 import Section from "./common/section";
+import Home from "./home/home";
 
 class App extends Component {
   state = {
@@ -43,25 +42,7 @@ I am a full-stack web developer.`,
     return (
       <div>
         <Section id="home">
-          <div className="hero-header-container">
-            <div className="greeting-container">
-              <div>
-                <pre className="introduction-text">
-                  {typingText}
-                  <Cursor />
-                </pre>
-              </div>
-            </div>
-            <button
-              className={
-                typingText.length === textValue.length
-                  ? "button animate"
-                  : "button"
-              }
-            >
-              View my work
-            </button>
-          </div>
+          <Home typingText={typingText} textValue={textValue} />
         </Section>
         <Navbar />
         <Section id="about">
@@ -76,7 +57,6 @@ I am a full-stack web developer.`,
         <Section id="contact">
           <Contact />
         </Section>
-
         {/* <img className="profile-image" src="/profileWeb.png" alt="profile" /> */}
       </div>
     );
