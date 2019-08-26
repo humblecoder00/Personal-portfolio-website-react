@@ -55,9 +55,9 @@
   display: inline;
   margin: 0 20px 0 20px;
   padding: initial;
-  color: white;
+  color: #f4f4f9;
   font-family: "Noto Sans";
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .nav-item-collapsed {
@@ -66,7 +66,7 @@
   padding-left: 40px;
   color: white;
   font-family: "Noto Sans";
-  font-weight: 500;
+  font-weight: 600;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -80,14 +80,15 @@
 
 .active {
   color: #b8dbd9;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .hamburger-button {
   position: absolute;
   right: 3vw;
   margin: auto 0;
-  width: 70px;
+  width: 65px;
+  height: 65px;
   top: 0;
   cursor: pointer;
   z-index: 11;

@@ -26,8 +26,8 @@ pre {
   justify-items: left;
   align-items: center;
   grid-template-rows: 60% 40%;
-  padding: 0 0 25px 25px;
-  border-bottom: 3px solid #b8dbd9;
+  /* padding: 0 0 25px 25px; */
+  /* border-bottom: 3px solid #b8dbd9; */
 }
 
 .profile-image {
@@ -40,6 +40,7 @@ pre {
   max-width: 100%;
   display: flex;
   justify-content: center;
+  padding: 0 0 25px 25px;
 }
 
 .introduction-text {
@@ -96,4 +97,27 @@ pre {
 .section-content {
   height: 100vh;
   background-color: #f4f4f9;
+}
+
+@media screen and (max-width: 600px) {
+  .introduction-text {
+    font-size: 2rem;
+  }
+
+  .button {
+    width: 200px;
+    height: 55px;
+    font-size: 14pt;
+    padding: 5px 15px 5px 15px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .introduction-text {
+    font-size: 1.6rem;
+  }
+
+  .greeting-container {
+    padding: 0 0 25px 20px;
+  }
 }
