@@ -90,7 +90,7 @@ pre {
 }
 
 .section-content {
-  height: 100vh;
+  min-height: 100vh;
   background-color: #f4f4f9;
   /* border-bottom: 1px solid #586f7c; */
 }
