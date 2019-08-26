@@ -5,9 +5,9 @@ import Skills from "./skills/Skills";
 import Contact from "./contact/Contact";
 import Portfolio from "./portfolio/Portfolio";
 import Navbar from "./navbar/Navbar";
-import "./App.css";
 import Section from "./common/section";
 import Home from "./home/home";
+import "./App.css";
 
 class App extends Component {
   state = {
@@ -57,7 +57,6 @@ I am a full-stack web developer.`,
         <Section id="contact">
           <Contact />
         </Section>
-        {/* <img className="profile-image" src="/profileWeb.png" alt="profile" /> */}
       </div>
     );
   }

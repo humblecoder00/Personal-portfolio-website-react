@@ -11,10 +11,12 @@ html {
 body {
   margin: 0;
   padding: 0;
+  background-color: #f4f4f9;
 }
 
 pre {
   white-space: pre-wrap;
+  margin: 0;
 }
 
 .hero-header-container {
@@ -28,12 +30,6 @@ pre {
   grid-template-rows: 60% 40%;
   /* padding: 0 0 25px 25px; */
   /* border-bottom: 3px solid #b8dbd9; */
-}
-
-.profile-image {
-  width: 225px;
-  height: 225px;
-  padding: 20px 0 20px 0;
 }
 
 .greeting-container {
@@ -50,9 +46,8 @@ pre {
   font-family: "Noto Sans";
   display: inline-block;
   height: 120px;
-  padding-top: 100px;
   /* border: solid 1px blue; */
-  margin: 20px 0 10px 0;
+  padding: 120px 0 10px 0;
 }
 
 .button {
@@ -97,6 +92,21 @@ pre {
 .section-content {
   height: 100vh;
   background-color: #f4f4f9;
+  /* border-bottom: 1px solid #586f7c; */
+}
+
+.section-header {
+  font-family: "Quicksand";
+  font-weight: 600;
+  margin: 0;
+  text-align: center;
+  font-size: 36px;
+}
+
+@media screen and (max-width: 900px) {
+  .section-header {
+    font-size: 32px;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -119,5 +129,9 @@ pre {
 
   .greeting-container {
     padding: 0 0 25px 20px;
+  }
+
+  .section-header {
+    font-size: 28px;
   }
 }
