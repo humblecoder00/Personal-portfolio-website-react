@@ -14,8 +14,8 @@ class Navbar extends Component {
   }
 
   componentDidMount() {
-    console.log(this.collapserRef);
-    console.log(this.state);
+    // console.log(this.collapserRef);
+    // console.log(this.state);
   }
 
   scrollToTop = () => {
@@ -26,7 +26,7 @@ class Navbar extends Component {
     let { menuOpen } = this.state;
     !menuOpen ? (menuOpen = true) : (menuOpen = false);
     this.setState({ menuOpen });
-    console.log(this.state);
+    // console.log(this.state);
   };
 
   menuClose = () => {
