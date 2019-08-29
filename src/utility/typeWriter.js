@@ -14,11 +14,3 @@ export function recursiveDelay(
     }, 1000 * timeoutInSeconds);
   }
 }
-
-//   // External function to call (example)
-//   let externalFunctionToCall = function() {
-//     console.log(new Date().getSeconds());
-//   };
-
-//   // Initial call
-//   recursiveDelay(externalFunctionToCall, 5, 1);
