@@ -41,20 +41,20 @@ I am a full-stack web developer.`,
     const { typingText, textValue } = this.state;
     return (
       <div>
-        <Section id="home">
+        <Section id="home" height={100}>
           <Home typingText={typingText} textValue={textValue} />
         </Section>
         <Navbar />
-        <Section id="about">
+        <Section id="about" height={100}>
           <About />
         </Section>
-        <Section id="skills">
+        <Section id="skills" height={100}>
           <Skills />
         </Section>
-        <Section id="portfolio">
+        <Section id="portfolio" height={100}>
           <Portfolio />
         </Section>
-        <Section id="contact">
+        <Section id="contact" height={80}>
           <Contact />
         </Section>
       </div>

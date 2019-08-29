@@ -24,9 +24,20 @@
 .about-description {
   justify-self: left;
   font-family: "Quicksand";
-  font-size: 15pt;
+  font-size: 18pt;
   font-weight: 500;
   /* height: 100%; */
+}
+
+@media screen and (max-width: 1024px) {
+  .about-description {
+    font-size: 16pt;
+  }
+
+  .profile-image {
+    width: 275px;
+    /* height: auto; */
+  }
 }
 
 @media screen and (max-width: 900px) {
@@ -40,24 +51,18 @@
     padding: 10px 0 0 0;
   }
 
-  .about-description {
-    font-size: 14pt;
-  }
-
   .profile-image {
     width: 275px;
-    /* height: auto; */
   }
 }
 
 @media screen and (max-width: 600px) {
   .profile-image {
     width: 250px;
-    /* height: auto; */
   }
 
   .about-description {
-    font-size: 13pt;
+    font-size: 15pt;
   }
 }
 
@@ -68,6 +73,6 @@
   }
 
   .about-description {
-    font-size: 12pt;
+    font-size: 14pt;
   }
 }

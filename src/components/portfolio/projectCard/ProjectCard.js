@@ -29,8 +29,12 @@ const ProjectCard = ({ data }) => {
           />
         </div>
         <div className="link-container">
-          <button className="link-button">Live Preview</button>
-          <button className="link-button">Source Code</button>
+          <a href={data.liveLink} target="_blank" rel="noopener noreferrer">
+            <button className="link-button">Live Preview</button>
+          </a>
+          <a href={data.sourceCode} target="_blank" rel="noopener noreferrer">
+            <button className="link-button">Source Code</button>
+          </a>
         </div>
       </div>
     </div>

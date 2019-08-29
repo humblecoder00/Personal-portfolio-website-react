@@ -1,8 +1,11 @@
 import React from "react";
 
-const Section = ({ id, children }) => {
+const Section = ({ id, children, height }) => {
   return (
-    <div className="section-content" id={id}>
+    <div
+      style={{ backgroundColor: "#f4f4f9", minHeight: `${height}vh` }}
+      id={id}
+    >
       {children}
     </div>
   );

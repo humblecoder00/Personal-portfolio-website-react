@@ -28,8 +28,6 @@ pre {
   justify-items: left;
   align-items: center;
   grid-template-rows: 60% 40%;
-  /* padding: 0 0 25px 25px; */
-  /* border-bottom: 3px solid #b8dbd9; */
 }
 
 .greeting-container {
@@ -46,7 +44,6 @@ pre {
   font-family: "Noto Sans";
   display: inline-block;
   height: 120px;
-  /* border: solid 1px blue; */
   padding: 120px 0 10px 0;
 }
 
@@ -87,12 +84,6 @@ pre {
   75% {
     box-shadow: 0 0 0 transparent;
   }
-}
-
-.section-content {
-  min-height: 100vh;
-  background-color: #f4f4f9;
-  /* border-bottom: 1px solid #586f7c; */
 }
 
 .section-header {

@@ -1,0 +1,98 @@
+.contact-container {
+  min-height: 100vh;
+  color: black;
+  padding-top: 60px;
+  /* text-align: center; */
+}
+
+.question-text {
+  font-family: "Quicksand";
+  font-weight: 600;
+  text-align: center;
+  color: #003366;
+  font-size: 24px;
+  padding: 30px 0 40px 0;
+  border-top: 4px solid #003366;
+}
+
+.contact-info-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding: 25px 10px 0 10px;
+}
+
+.contact-element {
+  padding-top: 25px;
+}
+
+.contact-icon {
+  width: 75px;
+  height: auto;
+  margin-right: 25px;
+}
+
+.contact-link {
+  margin: 0;
+  padding: 0 0 0 15px;
+  font-family: "Quicksand";
+  font-weight: 600;
+  font-size: 14pt;
+  overflow-wrap: break-word;
+}
+
+.footer-note {
+  font-family: "Quicksand";
+  font-weight: 600;
+  font-size: 14pt;
+  text-align: center;
+  padding: 100px 0 30px 0;
+}
+
+@media screen and (max-width: 768px) {
+  .contact-link {
+    margin: 0;
+    padding: 0 0 0 15px;
+    font-family: "Quicksand";
+    font-weight: 600;
+    font-size: 12pt;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .contact-element {
+    padding-bottom: 20px;
+  }
+
+  .contact-icon {
+    width: 60px;
+    height: auto;
+    margin-right: 20px;
+  }
+
+  .contact-link {
+    margin: 0;
+    padding: 0 0 0 15px;
+    font-family: "Quicksand";
+    font-weight: 600;
+    font-size: 10pt;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .contact-icon {
+    width: 50px;
+    height: auto;
+    margin-right: 15px;
+  }
+
+  .contact-link {
+    margin: 0;
+    padding: 0 0 0 15px;
+    font-family: "Quicksand";
+    font-weight: 600;
+    font-size: 8pt;
+  }
+}

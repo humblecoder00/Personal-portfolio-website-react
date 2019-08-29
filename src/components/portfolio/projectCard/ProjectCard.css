@@ -38,7 +38,7 @@
 }
 
 .link-container {
-  grid-column: 1 / span 12;
+  grid-column: 5 / span 12;
 }
 
 .link-button {
@@ -55,9 +55,13 @@
   font-family: "Noto Sans";
   transition: all 0.2s;
   cursor: pointer;
-  width: 200px;
+  width: 25%;
   height: 45px;
   border-radius: 25px;
+}
+
+.link-button:focus {
+  outline: 0;
 }
 
 .project-image {
@@ -90,6 +94,10 @@
 }
 
 @media screen and (max-width: 1024px) {
+  .project-container {
+    padding-bottom: 40px;
+  }
+
   .description-container > :nth-child(1) {
     grid-row-start: 2;
     /* grid-column-start: 1; */
@@ -102,6 +110,15 @@
     grid-column: 1 / span 12;
   }
 
+  .link-container {
+    grid-column: 4 / span 12;
+  }
+
+  .link-button {
+    width: 35%;
+    font-size: 11pt;
+  }
+
   /* .link-container {
     grid-column: 4 / span 8;
   }
@@ -109,4 +126,15 @@
   .link-button {
     width: 175px;
   } */
+}
+
+@media screen and (max-width: 768px) {
+  .link-container {
+    grid-column: 3 / span 12;
+  }
+
+  .link-button {
+    width: 75%;
+    font-size: 11pt;
+  }
 }
