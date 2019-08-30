@@ -26,13 +26,13 @@
 }
 
 .project-name {
-  font-family: "Quicksand";
+  font-family: "Quicksand", sans-serif;
   font-weight: 600;
   font-size: 28px;
 }
 
 .project-description {
-  font-family: "Quicksand";
+  font-family: "Quicksand", sans-serif;
   font-weight: 500;
   font-size: 1.2rem;
 }
@@ -52,7 +52,7 @@
   box-sizing: inherit;
   display: inline-block;
   font-size: 12pt;
-  font-family: "Noto Sans";
+  font-family: "Noto Sans", sans-serif;
   transition: all 0.2s;
   cursor: pointer;
   width: 25%;

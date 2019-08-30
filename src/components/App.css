@@ -41,7 +41,7 @@ pre {
   color: #003366;
   font-size: 3rem;
   font-weight: 600;
-  font-family: "Noto Sans";
+  font-family: "Noto Sans", sans-serif;
   display: inline-block;
   height: 120px;
   padding: 120px 0 10px 0;
@@ -56,7 +56,7 @@ pre {
   box-sizing: inherit;
   display: inline-block;
   font-size: 16pt;
-  font-family: "Noto Sans";
+  font-family: "Noto Sans", sans-serif;
   transition: all 0.2s;
   cursor: pointer;
   width: 300px;
@@ -87,7 +87,7 @@ pre {
 }
 
 .section-header {
-  font-family: "Quicksand";
+  font-family: "Quicksand", sans-serif;
   font-weight: 600;
   margin: 0;
   text-align: center;

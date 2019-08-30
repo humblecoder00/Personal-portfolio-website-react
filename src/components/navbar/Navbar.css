@@ -57,7 +57,7 @@
   margin: 0 20px 0 20px;
   padding: initial;
   color: #f4f4f9;
-  font-family: "Noto Sans";
+  font-family: "Noto Sans", sans-serif;
   font-weight: 600;
   font-size: 12pt;
 }
@@ -67,7 +67,7 @@
   background-color: #194775;
   padding-left: 40px;
   color: white;
-  font-family: "Noto Sans";
+  font-family: "Noto Sans", sans-serif;
   font-weight: 600;
   display: flex;
   justify-content: center;

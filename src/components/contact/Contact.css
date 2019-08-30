@@ -6,7 +6,7 @@
 }
 
 .question-text {
-  font-family: "Quicksand";
+  font-family: "Quicksand", sans-serif;
   font-weight: 600;
   text-align: center;
   color: #003366;
@@ -37,14 +37,14 @@
 .contact-link {
   margin: 0;
   padding: 0 0 0 15px;
-  font-family: "Quicksand";
+  font-family: "Quicksand", sans-serif;
   font-weight: 600;
   font-size: 14pt;
   overflow-wrap: break-word;
 }
 
 .footer-note {
-  font-family: "Quicksand";
+  font-family: "Quicksand", sans-serif;
   font-weight: 600;
   font-size: 14pt;
   text-align: center;
@@ -55,7 +55,7 @@
   .contact-link {
     margin: 0;
     padding: 0 0 0 15px;
-    font-family: "Quicksand";
+    font-family: "Quicksand", sans-serif;
     font-weight: 600;
     font-size: 12pt;
   }
@@ -75,7 +75,7 @@
   .contact-link {
     margin: 0;
     padding: 0 0 0 15px;
-    font-family: "Quicksand";
+    font-family: "Quicksand", sans-serif;
     font-weight: 600;
     font-size: 10pt;
   }
@@ -91,7 +91,7 @@
   .contact-link {
     margin: 0;
     padding: 0 0 0 15px;
-    font-family: "Quicksand";
+    font-family: "Quicksand", sans-serif;
     font-weight: 600;
     font-size: 8pt;
   }

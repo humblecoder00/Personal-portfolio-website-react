@@ -23,7 +23,7 @@
 
 .about-description {
   justify-self: left;
-  font-family: "Quicksand";
+  font-family: "Quicksand", sans-serif;
   font-size: 18pt;
   font-weight: 500;
   /* height: 100%; */
