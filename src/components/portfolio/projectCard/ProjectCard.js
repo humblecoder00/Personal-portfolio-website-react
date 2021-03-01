@@ -9,6 +9,15 @@ const ProjectCard = ({ data }) => {
           <h2 className="project-name">{data.name}</h2>
           <p className="project-description">{data.projectDescription}</p>
           <p className="project-description">{data.techDescription}</p>
+          {(!data.liveLink) ? (
+            <p
+              style={{
+                color: 'red',
+                fontWeight: 500
+            }}>
+              Note: Live preview is temporarily unavailable due to external API changes. This will be updated soon.
+            </p>
+          ) : null}
           <div className="techstack-container">
             <ul className="techstack-list">
               {data.techStack.map((t, index) => {
@@ -29,9 +38,15 @@ const ProjectCard = ({ data }) => {
           />
         </div>
         <div className="link-container">
-          <a href={data.liveLink} target="_blank" rel="noopener noreferrer">
-            <button className="link-button">Live Preview</button>
-          </a>
+          {(!data.liveLink) ? (
+            <a href={data.liveLink} target="none" rel="noopener noreferrer">
+              <button className="link-button-disabled">Live Preview</button>
+            </a>
+          ) : (
+            <a href={data.liveLink} target="_blank" rel="noopener noreferrer">
+              <button className="link-button">Live Preview</button>
+            </a>
+          )}
           <a href={data.sourceCode} target="_blank" rel="noopener noreferrer">
             <button className="link-button">Source Code</button>
           </a>

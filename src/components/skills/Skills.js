@@ -7,14 +7,19 @@ const frontEnd = [
   { name: "CSS", iconPath: "/skillIcons/css3.png" },
   { name: "Javascript", iconPath: "/skillIcons/javascript.png" },
   { name: "React", iconPath: "/skillIcons/react.png" },
-  { name: "Redux", iconPath: "/skillIcons/redux.png" }
+  { name: "Redux", iconPath: "/skillIcons/redux.png" },
+  { name: "GatsbyJS", iconPath: "/skillIcons/gatsby.png" },
+  { name: "ElectronJS", iconPath: "/skillIcons/electron.png" },
+  { name: "GraphQL", iconPath: "/skillIcons/graphql.png" },
 ];
 
 const backEnd = [
   { name: "Node", iconPath: "/skillIcons/nodejs.png" },
   { name: "Express", iconPath: "/skillIcons/expressjs.png" },
   { name: "MongoDB", iconPath: "/skillIcons/mongodb.png" },
-  { name: "MySQL", iconPath: "/skillIcons/MySQL.png" }
+  { name: "MySQL", iconPath: "/skillIcons/MySQL.png" },
+  { name: "PostgreSQL", iconPath: "/skillIcons/postgresql.png" },
+  { name: "SQLite", iconPath: "/skillIcons/SQLite.png" },
 ];
 
 const tools = [

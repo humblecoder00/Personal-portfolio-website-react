@@ -37,7 +37,8 @@ It uses Skånetrafiken's Open API endpoints to perform related queries.`,
       { name: "React", iconPath: "/skillIcons/react.png" },
       { name: "Heroku", iconPath: "/skillIcons/heroku.png" }
     ],
-    liveLink: "https://skanedepartures.herokuapp.com",
+    // liveLink: "https://skanedepartures.herokuapp.com",
+    liveLink: null,
     sourceCode:
       "https://github.com/humblecoder00/Personal-React-SPA-project--Skane-departures"
   },
@@ -54,7 +55,8 @@ It uses Skånetrafiken's Open API endpoints to perform related queries.`,
       { name: "SemanticUI", iconPath: "/skillIcons/semanticui.png" },
       { name: "Netlify", iconPath: "/skillIcons/netlify.png" }
     ],
-    liveLink: "https://youtubeviewer.netlify.com/",
+    // liveLink: "https://youtubeviewer.netlify.com/",
+    liveLink: null,
     sourceCode:
       "https://github.com/humblecoder00/Personal-React-Redux-SPA-project--YouTubeViewer"
   }
