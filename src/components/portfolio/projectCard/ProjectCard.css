@@ -50,7 +50,7 @@
   font-family: "Noto Sans", sans-serif;
   transition: all 0.2s;
   cursor: pointer;
-  width: 200px;
+  width: 25%;
   height: 45px;
   border-radius: 25px;
 }
@@ -69,7 +69,7 @@
   font-family: "Noto Sans", sans-serif;
   transition: all 0.2s;
   cursor: pointer;
-  width: 200px;
+  width: 25%;
   height: 45px;
   border-radius: 25px;
 }
@@ -133,6 +133,11 @@
     width: 35%;
     font-size: 11pt;
   }
+
+  .link-button-disabled {
+    width: 35%;
+    font-size: 11pt;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -141,6 +146,11 @@
   }
 
   .link-button {
+    width: 75%;
+    font-size: 11pt;
+  }
+
+  .link-button-disabled {
     width: 75%;
     font-size: 11pt;
   }
